@@ -35,11 +35,14 @@ public class Compare {
         System.out.println("Length of Line2 is " + length2 );
 
         // For Equality check of both line
-        if ( length1 == length2 ) {
-            System.out.println("Both lines are equal");
+        if ( length1 > length2 ) {
+            System.out.println("length of Line1 is greater than Line2 by " + (length1 - length2));
+        }
+        else if ( length1 < length2 ) {
+            System.out.println("Line1 is shorter than Line2 by "+ (length2 - length1));
         }
         else {
-            System.out.println("Both lines are not equal");
+            System.out.println("Both Lines are equal");
         }
 
     }
