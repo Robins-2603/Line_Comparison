@@ -58,19 +58,6 @@ public class Compare {
         //comparing by calling compareLine method
         CompareLine();
 
-//        double a1, b1, a2, b2, length2;
-//        System.out.println("Enter a1 and b1");
-//        a1 = scan.nextDouble();
-//        b1 = scan.nextDouble();
-//
-//        System.out.println("Enter a2 and b2");
-//        a2 = scan.nextDouble();
-//        b2 = scan.nextDouble();
-//        length2 = Math.sqrt(Math.pow((a2-a1),2) + Math.pow((b2-b1),2) );
-//
-//        System.out.println("Length of Line2 is " + length2 );
-
-        // For Equality check of both line
 
     }
 }
